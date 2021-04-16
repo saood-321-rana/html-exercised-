@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Form</title>
+    <style>
+        *{
+            margin: 1px;
+            padding-left: 10px;
+            padding-top: 5px;
+
+        }
+        body{
+        }
+    </style>
+
+</head>
+<body>
+    <h1><center><u>Application Form</u></center></h1>
+    <form action="application.php">
+        
+            <h2>Personal details</h2>
+            <div>
+                <label for="name"> Name:</label>
+                <input type="text" id="name">
+            </div><br>
+            <div>
+                <label for="id">Cnic:</label>
+                <input type="number" id="id" placeholder="35302-987654827-98" required>
+            </div><br>
+            <div>
+                <label for="F-name"> Father Name:</label>
+                <input type="text" id="F-name">
+            </div><br>
+            <div>
+                <label for="gender"> Gender:</label><br>
+                Male: <input type="radio" name="gender" checked> Fe-male: <input type="radio" name="gender"> 
+            </div><br>
+            <div>
+                <label for="height">Height:</label>
+                <input type="Number" placeholder="130cm" id="height">
+                
+            </div>
+            <div>
+                <label for="weight">weight:</label>
+                <input type="Number" placeholder="40kg" id="weight">
+
+            </div><br>
+            <div>
+                <label for="Subcontinent"> Subcontinent:</label>
+                <select name="" id="Subcontinent">
+                    <option value="sel" selected disabled> Click here</option>
+
+                    <option value="arg"> Asia</option>
+                    <option value="ber"> Africa</option>
+                    <option value="Ceota"> South Africa</option>
+                    <option value="Ceota"> North Africa</option>
+
+                    <option value="Farance"> South America</option>
+                    <option value="arg"> west America</option>
+
+                    <option value="Gorgia"> Austalia</option>
+                    <option value="Malaishia"> Intarkatica</option>
+                    <option value="other"> Other</option>
+                </select>
+                <label for="country">Country:</label>
+                <select name="" id="country">
+                    <option value="sel" selected disabled> Click here</option>
+
+                    <option value="arg"> Argintaina</option>
+                    <option value="ber"> Berlin</option>
+                    <option value="Ceota"> Ceota</option>
+                    <option value="Farance"> Farance</option>
+                    <option value="Gorgia"> Gorgia</option>
+                    <option value="Malaishia"> Malaishia</option>
+                    <option value="Russia"> Russia</option>
+                    <option value="itli"> Italy</option>
+                    <option value="Barcilona"> Barcilona</option>
+                    <option value="pak"> Pakistna</option>
+                    <option value="India"> India</option>
+                    <option value="Newzeland"> Newzeland</option>
+                    <option value="africa"> Africa</option>
+                    <option value="north"> North Africa</option>
+                    <option value="South"> South Africa</option>
+                    <option value="England"> England</option>
+                    <option value="other"> Other</option>
+                </select><br>
+                <label for="city"> city</label>
+                <select name="city" id="city">
+                    <option value="click" selected disabled>click here</option>
+                    <option value="lahore">Lahore</option>
+                    <option value="Multan">Multan</option>
+                    <option value="karachi">karachi</option>
+                    <option value="islamabad">islamabad</option>
+                    <option value="Peshawar">Peshawar</option>
+                    <option value="Qoeta">Qoeta</option>
+
+
+                </select>
+
+            </div><br>
+            <div> <label for="address">Permannent Address</label> <br>
+                <textarea name="" id="" cols="15" rows="2"></textarea>
+                
+            
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="asdfjkl@gmail.com" required>
+                <label for="cell">Cell Number</label>
+                <input type="number" placeholder="+923090873817">
+                <label for="cell">TelePhone Number</label>
+                <input type="number" placeholder="56338198"><br>
+                <label for="ok">ok</label>
+                <input type="checkbox" name="" id="ok" required> 
+                <button>Next</button>
+            </div>
+            <div>
+
+            </div>
+
+        
+        
+    </form>
+</body>
+</html>

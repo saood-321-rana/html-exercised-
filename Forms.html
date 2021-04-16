@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h1> <center>Practise for Form</center></h1>
+    <form action="form.php">
+        <div>
+            <label for="nme"> Name</label>
+            <input type="text" id="nme">
+        </div><br>
+        <div>
+            <label for="contact"> Contact Number</label>
+            <input type="number" id="contact" placeholder="+9230039130011" >  
+        </div><br>
+        <div>
+            <label for="religion"> Religion</label><br>
+            Muslim:<input type="checkbox" checked>
+           
+           NON-Muslim: <input type="checkbox">
+        </div><br>
+        <div>
+            <label for="code">Password</label>
+            <input type="password" id="code" required>
+
+        </div><br>
+        <div>
+            <label for="mail">Email</label>
+            <input type="email" id="mail" placeholder="21asid@gmail.com">
+        </div><br>
+        <div>
+            <label for="dob"> DOB</label>
+            <input type="date" id="dob">
+        </div><br>
+        <div>
+            <h3>Extra skills</h3>
+            <label for="Alive"> Hafiz</label>
+            <input type="checkbox" name="status" id="Alive">
+            <label for="Dead"> Player</label>
+            <input type="checkbox" name="status" id="Dead">
+            <label for="Dead"> Other</label>
+            <input type="checkbox" name="status" id="Dead">
+        </div><br>
+        <div>
+            <h3>Father Status</h3>
+            <label for="Alive"> Alive</label>
+            <input type="radio" name="status" id="Alive">
+            <label for="Dead"> Dead</label>
+            <input type="radio" name="status" id="Dead">
+        </div><br>
+        <div>
+            <label for="level"> Fitness level</label>
+            <input type="range" id="level"> 
+        </div><br>
+        <div>
+            <label for="explanation"> What you think about Kashmir? Write about it atleast 100 words.</label><br>
+            <textarea name="" id=" explanation" cols="30" rows="10"></textarea>
+
+        </div><br>
+        <div>
+            <label for="cv"> Upload CV</label>
+            <input type="file" id="cv" required>
+        </div><br>
+        <div>
+            <label for="address"> Home Town</label>
+            <select name="" id="address">
+                <option value="" selected disabled>Select from here</option>
+
+                <option value="lah">Lahore</option>
+                <option value="">OKara</option>
+                <option value="">karachi</option>
+                <option value="">Lahore</option>
+
+            </select>
+        </div><br>
+        <div>
+            <input type="submit">
+            <input type="reset">
+            <input type="button" value="GO back">
+
+
+        </div>
+
+
+
+
+    </form>
+
+</body>
+</html>
